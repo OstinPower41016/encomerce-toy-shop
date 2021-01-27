@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowJs": false,
+    "checkJs": false,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "moduleResolution": "Node",
+    "noEmitOnError": true,
+    "strict": true,
+    "sourceMap": true,
+    "target": "es6",
+    "module": "es6",
+    "skipLibCheck": true
+  },
+  "include": ["client/", "server/"],
+  "exclude": ["node_modules"]
+}
