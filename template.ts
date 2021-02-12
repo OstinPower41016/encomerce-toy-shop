@@ -3,7 +3,9 @@ export default () => {
    <html lang="en">
     <head>
      <meta charset="utf-8">
-     <title>MERN Kickstart</title>
+     <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+     <title>Toys Shop</title>
     </head>
     <body>
      <div id="root"></div>
