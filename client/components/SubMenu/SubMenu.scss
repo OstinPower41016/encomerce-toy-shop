@@ -1,0 +1,20 @@
+.sub-menu {
+  background: #fff;
+  margin-bottom: 1.5em;
+  padding: 1em;
+  white-space: nowrap;
+  border-radius: 1em;
+  &__flex {
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__text {
+    font-weight: bold;
+  }
+  &__link {
+    padding-left: 1em;
+  }
+  &__button {
+    background: #e8e5e5 !important;
+  }
+}

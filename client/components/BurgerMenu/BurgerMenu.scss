@@ -1,0 +1,62 @@
+@mixin pseudoShareProp {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #000;
+  border-radius: 5px;
+  top: 2px;
+  left: 0;
+}
+
+.burger-menu {
+  padding: 0.3em 1.8em;
+  border-radius: 0.3em;
+  border: 1px solid #000;
+  & :first-child {
+    padding-right: 0.7em;
+  }
+  &__icon {
+    position: relative;
+  }
+  &__icon span:first-child::before {
+    @include pseudoShareProp;
+  }
+  &__icon span:nth-child(2)::before {
+    @include pseudoShareProp;
+    left: 6px;
+  }
+  &__icon span:nth-child(3)::before {
+    @include pseudoShareProp;
+    left: 12px;
+  }
+  &__icon span:nth-child(4)::before {
+    @include pseudoShareProp;
+    top: 8px;
+  }
+  &__icon span:nth-child(5)::before {
+    @include pseudoShareProp;
+    top: 8px;
+    left: 6px;
+  }
+  &__icon span:nth-child(6)::before {
+    @include pseudoShareProp;
+    top: 8px;
+    left: 12px;
+  }
+  &__icon span:nth-child(7)::before {
+    @include pseudoShareProp;
+    top: 14px;
+  }
+  &__icon span:nth-child(8)::before {
+    @include pseudoShareProp;
+    top: 14px;
+    left: 6px;
+  }
+
+  &__icon span:last-child::before {
+    @include pseudoShareProp;
+    top: 14px;
+    left: 12px;
+  }
+}

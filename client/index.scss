@@ -1,24 +1,61 @@
-$textMainColor: #594e4e;
-
+// @font-face {
+//   font-family: "Roboto";
+//   src: url("./assets/fonts/Roboto-Light.ttf") format("ttf");
+//   font-weight: 300;
+// }
+// @font-face {
+//   font-family: "Roboto";
+//   src: url("./assets/fonts/Roboto-Regular.ttf") format("ttf");
+//   font-weight: 400;
+// }
+// @font-face {
+//   font-family: "Roboto";
+//   src: url("./assets/fonts/Roboto-Medium.ttf") format("ttf");
+//   font-weight: 500;
+// }
+// @font-face {
+//   font-family: "Roboto";
+//   src: url("./assets/fonts/Roboto-Bold.ttf") format("ttf");
+//   font-weight: 700;
+// }
+// @font-face {
+//   font-family: "Roboto";
+//   src: url("./assets/fonts/Roboto-MediumItalic.ttf") format("ttf");
+//   font-weight: 500;
+// }
+// @font-face {
+//   font-family: "Roboto";
+//   src: url("./assets/fonts/Roboto-Italic.ttf") format("ttf");
+//   font-weight: 400;
+// }
 @font-face {
-  font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-Light.ttf") format("ttf");
+  font-family: "Comforta";
+  src: url("./assets/fonts/Comfortaa/Comfortaa-Light.ttf") format("ttf");
   font-weight: 300;
 }
 @font-face {
-  font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-Regular.ttf") format("ttf");
+  font-family: "Comforta";
+  src: url("./assets/fonts/Comfortaa/Comfortaa-Regular.ttf") format("ttf");
   font-weight: 400;
 }
 @font-face {
-  font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-Medium.ttf") format("ttf");
+  font-family: "Comforta";
+  src: url("./assets/fonts/Comfortaa/Comfortaa-Medium.ttf") format("ttf");
   font-weight: 500;
 }
 @font-face {
-  font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-Bold.ttf") format("ttf");
+  font-family: "Comforta";
+  src: url("./assets/fonts/Comfortaa/Comfortaa-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Comforta";
+  src: url("./assets/fonts/Comfortaa/Comfortaa-Bold.ttf") format("ttf");
   font-weight: 700;
+}
+
+*:focus {
+  outline: none;
 }
 
 body {

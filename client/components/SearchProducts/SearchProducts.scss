@@ -1,0 +1,18 @@
+.search-products {
+  background: #fff;
+  border: 1px solid #93808036;
+  &__button {
+    margin-right: 3em;
+    border-left: 1px solid black !important;
+  }
+  &__button:focus {
+    outline: none;
+  }
+  &__icon-button {
+    padding-top: 1px;
+  }
+  &__input {
+    border-radius: 8px 0 0 8px !important;
+    border: 1px solid black !important;
+  }
+}

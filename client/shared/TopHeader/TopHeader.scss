@@ -1,5 +1,23 @@
+@import "../../variables";
+
 .top-header {
-  background-color: #d8dfe1;
-  height: 45px;
-  width: 100%;
+  font-size: 13px;
+  border-bottom: 1px solid #93808036;
+  &__links a:not(:first-child) {
+    padding-left: 15px;
+  }
+  &__phone-icon {
+    & path:last-child {
+      fill: red;
+    }
+    & path:nth-child(1) {
+      fill: transparent;
+    }
+    & path:nth-child(2) {
+      fill: black;
+    }
+    & path:nth-child(3) {
+      fill: red;
+    }
+  }
 }

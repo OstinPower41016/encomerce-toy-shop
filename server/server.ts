@@ -8,7 +8,7 @@ mongoose.connect(process.env.mongoUri!, {
 });
 
 mongoose.connection.on("error", () => {
-  throw new Error(`unable to connect to database: ${process.env.mongoUri}`);
+  throw Error("unable to connect to db");
 });
 
 app.listen(process.env.port, () => {
