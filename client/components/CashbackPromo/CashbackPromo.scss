@@ -1,0 +1,15 @@
+.cashback-promo {
+  position: relative;
+  &__btn {
+    position: absolute;
+    top: 65%;
+    left: 31%;
+    font-weight: 400;
+    background: #cf3939;
+    color: #fff;
+    box-shadow: 4px 4px 4px #0000004f;
+    &:hover {
+      background: #cf3939;
+    }
+  }
+}

@@ -13,7 +13,7 @@ import "./FixedHeader.scss";
 
 const FixedHeader = () => {
   return (
-    <Box h="60px" bg="rgba(255,255,255, .5)" className="fixed-header">
+    <Box h="60px" bg="rgba(255,255,255)" className="fixed-header">
       <Container>
         <Grid
           h="100%"

@@ -1,0 +1,66 @@
+.advantages {
+  margin: 2em 0;
+  position: relative;
+  &__header {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 40px;
+  }
+  &__grid {
+    padding: 3em 1em 0;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 60% 1% 27%;
+    grid-template-rows: auto 120% auto;
+    grid-row-gap: 30px;
+    grid-template-areas:
+      "delivery divider delivery-btn"
+      "help divider help-btn"
+      "gift divider gift-btn";
+    &-delivery {
+      grid-area: delivery;
+    }
+    &-help {
+      grid-area: help;
+    }
+    &-gift {
+      grid-area: gift;
+    }
+    &-divider {
+      grid-area: divider;
+    }
+    &-divider::before {
+      content: "";
+      display: block;
+      width: 1px;
+      height: 402px;
+      background: #0000008a;
+    }
+  }
+  &__btn-delivery {
+    grid-area: delivery-btn;
+    justify-self: end;
+  }
+  &__btn-help {
+    grid-area: help-btn;
+    justify-self: end;
+  }
+  &__btn-gift {
+    grid-area: gift-btn;
+    justify-self: end;
+  }
+  &__decoration-element {
+    position: absolute;
+    top: -17px;
+    left: -22px;
+    width: 16%;
+  }
+  &__btn {
+    background: #cf3939;
+    color: #fff9f9;
+    box-shadow: 4px 4px 4px #0000004f;
+    &:hover {
+      background: #cf3939;
+    }
+  }
+}

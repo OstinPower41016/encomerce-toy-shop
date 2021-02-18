@@ -3,6 +3,7 @@ import { Box, Container, Flex, Image, Text, Button } from "@chakra-ui/react";
 import { Icon } from "@iconify/react";
 import giftDuotone from "@iconify/icons-ph/gift-duotone";
 import clickIcon from "@iconify/icons-tabler/click";
+import arrowDownCircle from "@iconify/icons-bi/arrow-down-circle";
 import cn from "classnames";
 import { cloneDeep } from "lodash";
 
@@ -142,6 +143,13 @@ const Carousel: React.FC<CarouselProps> = (props) => {
             </Button>
           </Box>
         </Flex>
+        <CenterContent>
+          <Icon
+            icon={arrowDownCircle}
+            style={{ color: "#000" }}
+            className="carousel__arrow-down"
+          />
+        </CenterContent>
       </Container>
     </Box>
   );
