@@ -9,7 +9,12 @@ interface CenterContentProps {
 
 const CenterContent: React.FC<CenterContentProps> = (props) => {
   return (
-    <Flex justifyContent="center" className={props.className} pt={props.pt}>
+    <Flex
+      justifyContent="center"
+      alignItems="center"
+      className={props.className}
+      pt={props.pt}
+    >
       {props.children}
     </Flex>
   );

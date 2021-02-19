@@ -1,0 +1,49 @@
+.best-products {
+  margin-top: 2em;
+  position: relative;
+  &__container {
+    background: #faf7ec;
+  }
+  &__top {
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em 3.5em 3em;
+  }
+  &__header {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 50px;
+  }
+  &__btn {
+    background: #fc184f;
+    color: white;
+    &:hover {
+      background: #fc184f;
+    }
+    &_active {
+      background: #fff;
+      color: #000;
+    }
+  }
+  &__slider {
+    padding: 0 3em;
+  }
+  &__bottom {
+    margin-top: 3em;
+    padding-bottom: 2em;
+  }
+  &__text-highlight {
+    color: #fc184f;
+  }
+  &__icon {
+    font-size: 20px;
+    padding-bottom: 4px;
+    margin-left: 6px;
+  }
+  &__decoration-element {
+    position: absolute;
+    top: -17px;
+    left: -22px;
+    width: 16%;
+  }
+}

@@ -1,0 +1,19 @@
+.simple-slider {
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  &__track {
+    flex: 0 0 85%;
+    overflow: hidden;
+    transition: 1s ease all;
+  }
+  &__group-slide {
+    flex: 0 0 25%;
+    display: flex;
+  }
+  &__content {
+    width: 100%;
+    display: flex;
+    transition: 1s ease all;
+  }
+}

@@ -1,0 +1,79 @@
+.card-product {
+  position: relative;
+  &__icon {
+    position: absolute;
+    top: 2%;
+    left: 7%;
+  }
+  &__img {
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  &__stars {
+    position: absolute;
+    top: 44%;
+    left: 49%;
+    transform: translate(-50%);
+  }
+  &__title {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%);
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  &__subtitle {
+    position: absolute;
+    padding: 5px;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__price {
+    position: absolute;
+    top: 73%;
+    left: 51%;
+    transform: translate(-50%);
+    font-size: 13px;
+  }
+
+  &__btn-cart {
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 12px;
+    width: 99%;
+    background: #fc184f;
+    color: #fff;
+    border-radius: 0;
+    height: 1.7rem;
+    &:hover {
+      background: #fc184f;
+    }
+  }
+  &__btn-search {
+    height: 1.7rem;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 12px;
+    width: 99%;
+    background: #5a43e9;
+    color: #fff;
+    border-radius: 0 0 5px 5px;
+    height: 1.7rem;
+    &:hover {
+      background: #5a43e9;
+    }
+  }
+}

@@ -8,6 +8,7 @@ import slide from "./f1.jpg";
 import SubMenu from "../components/SubMenu/SubMenu";
 import Advantages from "../components/Advantages/Advantages";
 import CashbackPromo from "../components/CashbackPromo/CashbackPromo";
+import BestProducts from "../components/BestProducts/BestProducts";
 
 // @ts-ignore
 
@@ -38,6 +39,7 @@ const Home = () => {
         <Carousel content={[content, content2, content3]} delay={7000} />
         <Advantages />
         <CashbackPromo />
+        <BestProducts />
       </Container>
     </Box>
   );

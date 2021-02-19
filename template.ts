@@ -4,12 +4,11 @@ export default () => {
     <head>
      <meta charset="utf-8">
      <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
-     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-     <title>Toys Shop</title>
+     <title>Главная</title>
     </head>
     <body>
      <div id="root"></div>
-     <script type="text/javascript" src="/dist/bundle.js"></script>
+     <script src="/dist/bundle.js"></script>
     </script>
     </body>
    </html>`;
