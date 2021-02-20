@@ -39,7 +39,7 @@ const buttons = [
 const Advantages = () => {
   return (
     <Box className="advantages">
-      <Container bg="#fff" borderRadius="11px" p="1em">
+      <Container bg="#fff" borderRadius="11px" p="1em 0 2em">
         <CenterContent>
           <h2 className="advantages__header">
             Преймущества использования нашего магазина

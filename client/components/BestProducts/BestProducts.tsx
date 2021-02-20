@@ -67,7 +67,7 @@ const BestProducts = () => {
       <Container className="best-products__container">
         <Flex className="best-products__top" mb="15px">
           <Box>
-            <h2 className="best-products__header">Лучшие предложение</h2>
+            <h2 className="best-products__header">Лучшие предложения</h2>
           </Box>
           <Stack spacing="15px" direction="row">
             {tabsName.map((tabName, idx) => {
@@ -99,7 +99,7 @@ const BestProducts = () => {
           </Text>
           <Icon
             icon={stopwatchIcon}
-            style={{ fontSize: "14px" }}
+            style={{ fontSize: "20px" }}
             className="best-products__icon"
           />
         </CenterContent>

@@ -2,19 +2,13 @@ import React from "react";
 import { Flex } from "@chakra-ui/react";
 
 interface CenterContentProps {
-  className?: string;
   children: any;
-  pt?: string;
+  [idx: string]: any;
 }
 
 const CenterContent: React.FC<CenterContentProps> = (props) => {
   return (
-    <Flex
-      justifyContent="center"
-      alignItems="center"
-      className={props.className}
-      pt={props.pt}
-    >
+    <Flex justifyContent="center" alignItems="center" {...props}>
       {props.children}
     </Flex>
   );

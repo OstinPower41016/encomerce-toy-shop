@@ -1,0 +1,56 @@
+.special-offer {
+  margin: 20px 0;
+  font-weight: 700;
+  &__content {
+    flex: 0 0 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__timer-deadline {
+    margin-top: 5px;
+  }
+  &__timer-deadline > div:not(:last-child)::after {
+    content: ":";
+    padding: 5px;
+    font-size: 27px;
+  }
+  &__time {
+    font-size: 27px;
+    margin-top: 5px;
+  }
+  &__timer-highlight {
+    margin-top: 5px;
+  }
+  &__descr-time:not(:last-child) {
+    padding-right: 10px;
+  }
+  &__timer-goal {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  &__remained-promo {
+    font-size: 15px;
+  }
+  &__timer-price {
+    margin-top: 5px;
+  }
+  &__old-price {
+    text-decoration: line-through;
+    text-decoration-color: #d62828;
+  }
+  &__btn {
+    background: #d62828;
+    color: white;
+    margin-top: 5px;
+    &:hover {
+      background: #d62828;
+    }
+  }
+  &__card {
+    flex: 0 0 20%;
+    box-shadow: 0 0 20px #000;
+    border-radius: 5px;
+  }
+}

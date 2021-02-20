@@ -9,6 +9,7 @@ import SubMenu from "../components/SubMenu/SubMenu";
 import Advantages from "../components/Advantages/Advantages";
 import CashbackPromo from "../components/CashbackPromo/CashbackPromo";
 import BestProducts from "../components/BestProducts/BestProducts";
+import SpecialOffer from "../components/SpecialOffer/SpecialOffer";
 
 // @ts-ignore
 
@@ -40,6 +41,11 @@ const Home = () => {
         <Advantages />
         <CashbackPromo />
         <BestProducts />
+        <SpecialOffer
+          price={75}
+          oldPrice={369}
+          deadline={new Date("2021-02-28T00:00:00")}
+        />
       </Container>
     </Box>
   );
